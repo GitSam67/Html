@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h3>Html Form</h3>
+    <form action="backend.php">
+        <label for="name">Name:</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="clg">College:</label>
+        <div>
+            <input type="text" name="myCollege" id="clg">
+        </div>
+        <br>
+        <label for="cgpa">CGPA:</label>
+        <div>
+            <input type="number" name="myCgpa" id="cgpa">
+        </div>
+        <br>
+        <label for="doj">DOJ:</label>
+        <div>
+            <input type="date" name="myDoj" id="doj">
+        </div>
+        <br>
+        <label for="mail">EMail:</label>
+        <div>
+            <input type="email" name="myEmail" id="mail">
+        </div>
+        <br>
+        <div>
+            Are you Eligible to vote ?: <input type="checkbox" name="MyEligibility" id="check" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="MyGender">
+            Female <input type="radio" name="MyGender">
+            Other <input type="radio" name="MyGender">
+        </div>
+        <br>
+        <div>
+            Tell me about yourself <br><textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <label for="Dept">Department</label>
+        <select name="myDept" id="Dept">
+            <option value="Cse">CSE</option>
+            <option value="ME">Mech</option>
+            <option value="Civ">Civil</option>
+        </select>
+        <br><br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
